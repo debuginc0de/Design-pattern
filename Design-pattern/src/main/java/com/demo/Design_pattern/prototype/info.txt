@@ -1,0 +1,21 @@
+Create new objects by copying (cloning) an existing object,
+ instead of creating from scratch.
+
+ When to Use Prototype Pattern?
+ ->
+   1. Object creation is costly or complex.
+   2. You want to avoid re-initialization of properties.
+   3. You need many similar objects.
+
+ Imagine a resume template (CV). Instead of creating every new resume from scratch, you:
+   Open a template (prototype)
+   Edit name, skills, etc.
+   Save it as a new file
+   That’s the Prototype Pattern.
+
+   # why we need Prototype Design Pattern?
+   1.It eliminates the (potentially expensive) overhead of initializing an object
+   2.It simplifies and can optimize
+    the use case where multiple objects of the same type will have mostly the same data
+   3.Original object remain unaltered, we can use clone object for use case.
+

@@ -1,4 +1,4 @@
-package com.demo.Design_pattern;
+package com.demo.Design_pattern.Singletone;
 
 public class TestEagerSingletonePattern {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package com.demo.Design_pattern;
-
-import org.springframework.aop.target.LazyInitTargetSource;
+package com.demo.Design_pattern.Singletone;
 
 public class LazySingletonPattern {
     private static volatile LazySingletonPattern lazygetInstance;
